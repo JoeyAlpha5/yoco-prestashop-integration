@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.48, created on 2024-10-29 18:13:30
+/* Smarty version 3.1.48, created on 2024-10-29 19:00:51
   from '/var/www/html/themes/classic/templates/checkout/_partials/steps/payment.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.48',
-  'unifunc' => 'content_67215e0a419753_60082263',
+  'unifunc' => 'content_672169234ecdf6_08811728',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '5571c3bf11fd961114a90b55d84a491496d6c740' => 
     array (
       0 => '/var/www/html/themes/classic/templates/checkout/_partials/steps/payment.tpl',
-      1 => 1730239973,
+      1 => 1730242807,
       2 => 'file',
     ),
   ),
@@ -21,25 +21,25 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'file:checkout/_partials/order-final-summary.tpl' => 1,
   ),
 ),false)) {
-function content_67215e0a419753_60082263 (Smarty_Internal_Template $_smarty_tpl) {
+function content_672169234ecdf6_08811728 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_loadInheritance();
 $_smarty_tpl->inheritance->init($_smarty_tpl, true);
 ?>
 
 
 <?php 
-$_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_13153996267215e0a3a4270_44948977', 'step_content');
+$_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_8055950966721692346eea0_22653555', 'step_content');
 ?>
 
 <?php $_smarty_tpl->inheritance->endChild($_smarty_tpl, 'checkout/_partials/steps/checkout-step.tpl');
 }
 /* {block 'step_content'} */
-class Block_13153996267215e0a3a4270_44948977 extends Smarty_Internal_Block
+class Block_8055950966721692346eea0_22653555 extends Smarty_Internal_Block
 {
 public $subBlocks = array (
   'step_content' => 
   array (
-    0 => 'Block_13153996267215e0a3a4270_44948977',
+    0 => 'Block_8055950966721692346eea0_22653555',
   ),
 );
 public function callBlock(Smarty_Internal_Template $_smarty_tpl) {
@@ -238,8 +238,7 @@ $_smarty_tpl->smarty->ext->_foreach->restore($_smarty_tpl, 1);?>
       yoco.showPopup({
         amountInCents: <?php echo htmlspecialchars($_smarty_tpl->tpl_vars['cart']->value['totals']['total']['amount']*100, ENT_QUOTES, 'UTF-8');?>
 ,
-        currency: '<?php echo htmlspecialchars($_smarty_tpl->tpl_vars['currency']->value['iso_code'], ENT_QUOTES, 'UTF-8');?>
-',
+        currency: 'ZAR',
         name: '<?php echo htmlspecialchars($_smarty_tpl->tpl_vars['shop']->value['name'], ENT_QUOTES, 'UTF-8');?>
 ',
         description: 'Order #<?php echo htmlspecialchars($_smarty_tpl->tpl_vars['cart']->value['id'], ENT_QUOTES, 'UTF-8');?>

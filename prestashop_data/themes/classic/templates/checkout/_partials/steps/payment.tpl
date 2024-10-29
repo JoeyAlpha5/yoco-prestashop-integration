@@ -165,7 +165,7 @@
 
       yoco.showPopup({
         amountInCents: {$cart.totals.total.amount * 100},
-        currency: '{$currency.iso_code}',
+        currency: 'ZAR',
         name: '{$shop.name}',
         description: 'Order #{$cart.id}',
         callback: function (result) {
